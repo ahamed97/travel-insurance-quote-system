@@ -35,7 +35,11 @@ Copy the .env.example file to .env for environment configuration:
 ```bash
 cp .env.example .env
 ```
-Update the .env file with your specific configuration values, such as database credentials and any other settings required.
+Update the .env file with your specific configuration values, such as database credentials and any other settings required and create a encryption key.
+
+```bash
+php artisan key:generate
+```
 
 ## 6. Run Migrations
 
