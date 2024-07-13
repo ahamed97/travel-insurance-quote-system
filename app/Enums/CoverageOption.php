@@ -13,8 +13,8 @@ enum CoverageOption: string
     public function price(): int
     {
         return match ($this) {
-            self::MedicalExpenses => 10,
-            self::TripCancellation => 20,
+            self::MedicalExpenses => 20,
+            self::TripCancellation => 30,
         };
     }
 }

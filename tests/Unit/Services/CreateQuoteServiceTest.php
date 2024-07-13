@@ -30,5 +30,5 @@ it('creates a quote', function () {
     expect($quote->medical_expenses)->toBeTrue();
     expect($quote->trip_cancellation)->toBeTrue();
     expect($quote->number_of_travelers)->toEqual($data['number_of_travelers']);
-    expect($quote->quote_price)->toEqual(80);
+    expect($quote->quote_price)->toEqual(120);
 });

@@ -27,7 +27,7 @@ it('saves the quote data to the database', function () {
         'medical_expenses' => true,
         'trip_cancellation' => true,
         'number_of_travelers' => 3,
-        'quote_price' => 180,
+        'quote_price' => 240,
     ]);
 });
 
