@@ -41,7 +41,7 @@ it('validates the destination field with invalid value', function () {
         ->assertHasErrors(['destination' => 'in']);
 });
 
-it('validates the invalid end date field with invalid value', function () {
+it('validates the end date field with invalid value', function () {
     Livewire::test(QuoteForm::class)
         ->set('destination', Destination::Europe->value)
         ->set('start_date', Carbon::today()->toDateString())
